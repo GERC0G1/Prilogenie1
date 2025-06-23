@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: DejaVu Sans, sans-serif; padding: 20px; }
+        h1 { color: #333; }
+        .section { margin-bottom: 20px; }
+        .label { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Отчёт по заявке</h1>
+    <div class="section">
+        <div class="label">Имя пользователя:</div>
+        <div>{{ username }}</div>
+    </div>
+    <div class="section">
+        <div class="label">Название заявки:</div>
+        <div>{{ title }}</div>
+    </div>
+    <div class="section">
+        <div class="label">Описание:</div>
+        <div>{{ description }}</div>
+    </div>
+</body>
+</html>
