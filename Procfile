@@ -1,1 +1,1 @@
-web: python app.py
+web: python run_sql_import.py
